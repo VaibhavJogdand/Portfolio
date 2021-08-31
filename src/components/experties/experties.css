@@ -1,0 +1,34 @@
+.experties{
+    background-color: black;
+    padding: 200px;
+}
+
+.expertHead{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: rgb(194, 194, 194);
+}
+
+.techIconsWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.techIconCont{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FFC200;
+    margin: 30px;
+
+}
+
+.forTag{
+    color: rgb(194, 194, 194);
+}
+
+.techIcon{
+    font-size: 50px;
+    color: black;
+}
+

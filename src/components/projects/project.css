@@ -1,0 +1,62 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 200px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.projectHeading{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(168, 168, 168);
+    font-size: 60px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+
+.carousel{
+    width: 80%;
+}
+
+.carousel-item{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding:0% 15% 14% 15%;
+    border-radius: 0px;
+}
+
+.d-block{
+    width: 50%;
+    background-color: red;
+}
+
+.Caption{
+    display: flex;
+    flex-direction: column;
+    color: rgb(99, 99, 99);
+    text-align: center;
+    align-items: center;
+}
+
+.projHead{
+    cursor: pointer;
+    color: rgb(194, 194, 194);
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.projHead:hover{
+    color: #FFC200;
+}
+
+.projDesc{
+    width: 70%;
+}

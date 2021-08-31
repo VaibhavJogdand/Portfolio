@@ -1,0 +1,55 @@
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: black;
+    height: 80vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header-intro{
+    display: flex;
+    /* width: 50%; */
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: center;
+    color: white;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.name-design{
+    color: #FFC200;
+}
+
+.header-btn{
+    width: 150px;
+    margin-top: 40px;
+}
+
+
+
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerSvg{
+    width: 70%;
+}

@@ -1,0 +1,64 @@
+.topbar{
+    display: grid;
+    grid-template-columns: 40% auto;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left{
+    padding-left: 85px;
+}
+
+.menuItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 35px;
+    color: rgb(194,194,194);
+    font-weight: 600;
+}
+
+.menuItems:hover{
+    color: #FFC200;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    margin: auto 30px;
+}
+
+.topbarIcons{
+    display: flex;
+    justify-content: left;
+}
+
+.topbarIconslist{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #FFC200;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 0;
+
+}
+
+.reactIcons{
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}

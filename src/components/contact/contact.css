@@ -1,0 +1,62 @@
+.contact{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.contactHead{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(194,194,194);
+    margin-bottom: 30px;
+}
+
+.contactWrapper{
+    padding: 100px;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.inputWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameInput,.emailInput{
+    width: 47%;
+    height: 50px;
+    background-color: black;
+    border: 1px solid #FFC200;
+    padding: 10px;
+    color: rgb(194,194,194);
+}
+
+.msgInput{
+    background-color: black;
+    border: 1px solid #FFC200;
+    margin-top: 30px;
+    padding: 10px;
+    height: 200px;
+    color: rgb(194,194,194);
+
+}
+
+.contact-btn{
+    margin: 30px auto;
+}
+
+.mapWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greetingMsg{
+    color: rgb(194,194,194);
+}
